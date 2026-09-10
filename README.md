@@ -65,14 +65,7 @@ venv\Scripts\activate   # On Windows
 pip install -r requirements.txt
 ```
 
-### 2. Configure API Keys (Optional)
-Copy `.env.example` to `.env` and add your Google Gemini or Hugging Face keys:
-```bash
-cp .env.example .env
-```
-*(If no API key is provided, CropCare automatically uses its built-in offline triage heuristic engine).*
-
-### 3. Run Application
+### 2. Run Application
 ```bash
 streamlit run app.py
 ```
